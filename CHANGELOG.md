@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 0.1.0 (draft)
+## 0.1.0 (2026-10-30)
 
 First public draft.
 
