@@ -1,0 +1,40 @@
+{
+  "name": "agentic-data-science",
+  "version": "0.1.0",
+  "description": "A canvas, a process and agent skills for data science with a coding agent: the agent finds facts, the human decides, and every result passes explicit checks.",
+  "author": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "repository": "https://github.com/steffen74/agentic-data-science",
+  "license": "MIT",
+  "keywords": [
+    "data-science",
+    "machine-learning",
+    "skills",
+    "canvas",
+    "data-leakage",
+    "checks",
+    "deep-learning"
+  ],
+  "skills": [
+    "./skills/core/ask-ds",
+    "./skills/core/audience",
+    "./skills/core/data-checks",
+    "./skills/core/diagnose-surprise",
+    "./skills/core/ds-retro",
+    "./skills/core/explore-data",
+    "./skills/core/grill-question",
+    "./skills/core/implement-experiment",
+    "./skills/core/leakage",
+    "./skills/core/review-results",
+    "./skills/core/setup-ds-project",
+    "./skills/core/tidy-notebooks",
+    "./skills/core/to-analysis-plan",
+    "./skills/core/to-experiments",
+    "./skills/core/to-memo",
+    "./skills/deep-learning/debug-training",
+    "./skills/deep-learning/model-card",
+    "./skills/deep-learning/training-protocol"
+  ]
+}

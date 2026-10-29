@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 1188 840" font-family="Helvetica, Arial, sans-serif">
+<title>Agentic Data Science Canvas</title>
+<rect x="0" y="0" width="1188" height="840" fill="#FFFFFF"/>
+<text x="30" y="58" font-size="26" font-weight="700" fill="#2C2C2A">Agentic Data Science Canvas</text>
+<text x="30" y="82" font-size="13" fill="#5F5E5A">The agent finds facts, the human decides, every result passes explicit checks.</text>
+<text x="640" y="50" font-size="11" fill="#5F5E5A">Project</text><line x1="640" y1="78" x2="830" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="860" y="50" font-size="11" fill="#5F5E5A">Team</text><line x1="860" y1="78" x2="1020" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="1050" y="50" font-size="11" fill="#5F5E5A">Date / version</text><line x1="1050" y1="78" x2="1148" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="30" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Problem</text>
+<text x="412" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Data and method</text>
+<text x="794" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Evidence and action</text>
+<rect x="30" y="125" width="364" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="151" font-size="17" font-weight="700" fill="#3C3489">1  Decision</text>
+<rect x="288.7" y="136" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="336.35" y="150" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="44" y="173" font-size="11.5" fill="#534AB7">Who decides what, when, how often?</text>
+<text x="44" y="189" font-size="11.5" fill="#534AB7">What happens today without this analysis?</text>
+<rect x="30" y="269" width="364" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="295" font-size="17" font-weight="700" fill="#3C3489">2  Questions</text>
+<rect x="288.7" y="280" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="336.35" y="294" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="44" y="317" font-size="11.5" fill="#534AB7">Which questions would change the decision?</text>
+<text x="44" y="333" font-size="11.5" fill="#534AB7">What can the data not answer?</text>
+<rect x="30" y="413" width="364" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="439" font-size="17" font-weight="700" fill="#3C3489">3  Audiences</text>
+<rect x="288.7" y="424" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="336.35" y="438" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="44" y="461" font-size="11.5" fill="#534AB7">Who acts on the result? Who reproduces it?</text>
+<text x="44" y="477" font-size="11.5" fill="#534AB7">Which format for whom?</text>
+<rect x="30" y="557" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="583" font-size="17" font-weight="700" fill="#3C3489">4  Success</text>
+<rect x="288.7" y="568" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="336.35" y="582" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="44" y="605" font-size="11.5" fill="#534AB7">Which metric reflects the cost of errors?</text>
+<text x="44" y="621" font-size="11.5" fill="#534AB7">Which baseline must be beaten?</text>
+<rect x="412" y="125" width="364" height="132" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="151" font-size="17" font-weight="700" fill="#085041">5  Data</text>
+<rect x="579.2" y="136" width="186.79999999999998" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="672.6" y="150" font-size="11" text-anchor="middle" fill="#085041">agent drafts, human approves</text>
+<text x="426" y="173" font-size="11.5" fill="#0F6E56">Sources, unit of observation, period, keys</text>
+<text x="426" y="189" font-size="11.5" fill="#0F6E56">Gaps, missing values, licenses</text>
+<rect x="412" y="269" width="364" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="295" font-size="17" font-weight="700" fill="#3C3489">6  Known in advance</text>
+<rect x="670.7" y="280" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="718.35" y="294" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="426" y="317" font-size="11.5" fill="#534AB7">When is the result needed?</text>
+<text x="426" y="333" font-size="11.5" fill="#534AB7">What information exists at that moment?</text>
+<rect x="412" y="413" width="364" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="439" font-size="17" font-weight="700" fill="#3C3489">7  Data decisions</text>
+<rect x="670.7" y="424" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="718.35" y="438" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="426" y="461" font-size="11.5" fill="#534AB7">Joins, missing values, encodings, exclusions</text>
+<text x="426" y="477" font-size="11.5" fill="#534AB7">Each with a reason in the decision log</text>
+<rect x="412" y="557" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="583" font-size="17" font-weight="700" fill="#085041">8  Checks</text>
+<rect x="579.2" y="568" width="186.79999999999998" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="672.6" y="582" font-size="11" text-anchor="middle" fill="#085041">agent drafts, human approves</text>
+<text x="426" y="605" font-size="11.5" fill="#0F6E56">Checkpoints: load, merge, features, split, output</text>
+<text x="426" y="621" font-size="11.5" fill="#0F6E56">Expected values from independent sources</text>
+<rect x="794" y="125" width="364" height="132" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="151" font-size="17" font-weight="700" fill="#085041">9  Experiments</text>
+<rect x="961.2" y="136" width="186.79999999999998" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="1054.6" y="150" font-size="11" text-anchor="middle" fill="#085041">agent drafts, human approves</text>
+<text x="808" y="173" font-size="11.5" fill="#0F6E56">One change per experiment, baseline first</text>
+<text x="808" y="189" font-size="11.5" fill="#0F6E56">Decision rule written before the run</text>
+<rect x="794" y="269" width="364" height="132" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="295" font-size="17" font-weight="700" fill="#085041">10  Findings</text>
+<rect x="961.2" y="280" width="186.79999999999998" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="1054.6" y="294" font-size="11" text-anchor="middle" fill="#085041">agent drafts, human approves</text>
+<text x="808" y="317" font-size="11.5" fill="#0F6E56">Answers, uncertainty, weak segments</text>
+<text x="808" y="333" font-size="11.5" fill="#0F6E56">What the data cannot tell</text>
+<rect x="794" y="413" width="364" height="277" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="808" y="439" font-size="17" font-weight="700" fill="#3C3489">11  Recommendation</text>
+<rect x="1052.7" y="424" width="95.3" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/>
+<text x="1100.35" y="438" font-size="11" text-anchor="middle" fill="#3C3489">human decides</text>
+<text x="808" y="461" font-size="11.5" fill="#534AB7">What to do, from when, under which conditions</text>
+<text x="808" y="477" font-size="11.5" fill="#534AB7">Where not to rely on the analysis</text>
+<rect x="30" y="706" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+<text x="44" y="730" font-size="15" font-weight="700" fill="#444441">Open questions</text><text x="44" y="748" font-size="11.5" fill="#5F5E5A">Who resolves it, by when?</text>
+<rect x="603" y="706" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+<text x="617" y="730" font-size="15" font-weight="700" fill="#444441">Decision log</text><text x="617" y="748" font-size="11.5" fill="#5F5E5A">Date · decision · reason · alternatives</text>
+<rect x="30" y="802" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7"/><text x="50" y="813" font-size="11.5" fill="#2C2C2A">Human decides</text>
+<rect x="160" y="802" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56"/><text x="180" y="813" font-size="11.5" fill="#2C2C2A">Agent drafts, human approves</text>
+<text x="1158" y="813" font-size="10.5" text-anchor="end" fill="#5F5E5A">Agentic Data Science Canvas v0.1 · CC BY 4.0 · github.com/steffen74/agentic-data-science</text>
+</svg>

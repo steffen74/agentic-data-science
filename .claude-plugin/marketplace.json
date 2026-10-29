@@ -1,0 +1,21 @@
+{
+  "name": "agentic-data-science",
+  "owner": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "description": "Agentic data science skills as an installable plugin.",
+  "plugins": [
+    {
+      "name": "agentic-data-science",
+      "source": "./",
+      "description": "A canvas, a process and agent skills for data science with a coding agent: the agent finds facts, the human decides, and every result passes explicit checks.",
+      "category": "data-science",
+      "keywords": [
+        "data-science",
+        "machine-learning",
+        "skills"
+      ]
+    }
+  ]
+}
