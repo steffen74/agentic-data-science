@@ -76,7 +76,7 @@ See [docs/deep-learning.md](docs/deep-learning.md) for what changes when the mod
 The skills follow the same layout as [Matt Pocock's skills](https://github.com/mattpocock/skills), so the same installers work.
 
 ```bash
-# Editable copies in your project (any agent)
+# Editable copies in your project (any agent; needs Node.js 22.20 or newer)
 npx skills@latest add steffen74/agentic-data-science
 
 # Claude Code plugin
