@@ -13,3 +13,7 @@ Feedback from real projects is the most valuable contribution. Useful issues des
 - Every human decision is an explicit **stop point**: the agent recommends, the user decides, the decision is logged.
 - Skills read and write the project files named in the `## Agentic data science` section of `AGENTS.md`; they do not invent new locations.
 - The canvas template has a single source: `skills/core/setup-ds-project/templates/CANVAS.md`.
+
+## Releases
+
+Add an entry under `## Unreleased` in `CHANGELOG.md` for every change that affects users of the skills or the canvas. Leave the version alone: maintainers cut releases with the `release-plugin` skill in `.claude/skills/`, which sets the version in `.claude-plugin/plugin.json`, tags `vX.Y.Z` and publishes a GitHub release.
