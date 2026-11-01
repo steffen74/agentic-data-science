@@ -24,7 +24,7 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 
 **Install the skills first.** In Claude Code: `claude plugin marketplace add steffen74/agentic-data-science`, then `claude plugin install agentic-data-science@agentic-data-science`. With any other agent (Copilot, Cursor, Codex and others; Node.js 22.20 or newer): `npx skills@latest add steffen74/agentic-data-science`. Everything after this assumes the skills are installed.
 
-**Choose your path.** Work on a project of your own, or use the [bike-sharing example](../examples/bike-sharing/): public data and a canvas filled up to the planning stage, so you can compare your answers with it.
+**Choose your path.** Work on a project of your own, or use the [bike-sharing example](../examples/bike-sharing/): public data and a canvas filled up to the planning stage. Its README says how to set up a repository and download the data. The example canvas is a reference answer for lessons 1–4; from lesson 5 on, you continue on the same data without one.
 
 **When to skip.** Never entirely. Even a one-off question deserves block 1 (Decision) and block 2 (Questions), filled in by hand in five minutes.
 
@@ -137,6 +137,8 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 **Skills:** `/to-experiments`, then `/implement-experiment`
 
 **When to skip.** Never skip the tracer bullet. You may skip `/to-experiments` when only one or two experiments are planned; write those cards by hand.
+
+**On the bike-sharing example,** the reference canvas ends here: block 9 lists the planned cards, and the results are yours.
 
 **Exercise**
 1. Run `/to-experiments`. Check that card 1 is the tracer bullet: raw data → checks → baseline → evaluation → final output.
