@@ -101,6 +101,18 @@ Then, once per project:
 
 Unsure what comes next? `/ask-ds`.
 
+## Learn it in seven lessons
+
+Each lesson is one skill and one small exercise, on a project of your own or on the [bike-sharing example](examples/bike-sharing/). Every lesson names the failure it prevents, says when you can skip it, and ends with a self-check question and a one-line takeaway. Full lessons: [docs/lessons.md](docs/lessons.md).
+
+1. **Start with the canvas** with `/setup-ds-project`. *A blank block is a decision nobody has made yet.*
+2. **Sharpen the question** with `/grill-question`. *Facts are the agent’s job; decisions are yours.*
+3. **Let the agent find the facts** with `/explore-data`. *Every judgement call about the data gets an owner and a log entry.*
+4. **Agree on checks before code** with `/to-analysis-plan`. *Decide how you will know it is right before anything is built.*
+5. **Build the tracer bullet** with `/to-experiments` and `/implement-experiment`. *Start narrow, but go end to end.*
+6. **Distrust your best result** with `/review-results` and `diagnose-surprise`. *A surprising result is a bug until proven otherwise.*
+7. **Close the loop** with `/to-memo` and `/ds-retro`. *A result counts when someone can act on it.*
+
 ## Works well with
 
 The data science skills govern the question-and-evidence loop. For the code inside it (data loaders, training loops, packages), Matt Pocock’s engineering skills fit directly: `/tdd`, `/implement`, `/code-review`. For understanding what the agent built, his `/wait-what` and `/teach` are useful, especially in teaching.
