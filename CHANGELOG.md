@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- `to-experiments`: card 1 is now called the “end-to-end baseline” instead of the “tracer bullet”; the card itself is unchanged.
+
 ## 0.1.0 (2026-10-30)
 
 First public draft.

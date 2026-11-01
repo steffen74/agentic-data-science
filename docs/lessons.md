@@ -10,7 +10,7 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 | 2. Sharpen the question | `/grill-question` | A precise answer to a fuzzy question |
 | 3. Let the agent find the facts | `/explore-data` | Judgement calls hidden in code |
 | 4. Agree on checks before code | `/to-analysis-plan` | Results nobody can verify |
-| 5. Build the tracer bullet | `/to-experiments`, `/implement-experiment` | A model with nothing to beat |
+| 5. Build the end-to-end baseline | `/to-experiments`, `/implement-experiment` | A model with nothing to beat |
 | 6. Distrust your best result | `/review-results`, `diagnose-surprise` | A leak that looks like progress |
 | 7. Close the loop | `/to-memo`, `/ds-retro` | A result nobody acts on |
 
@@ -130,18 +130,18 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 
 ---
 
-## Lesson 5: Build the tracer bullet
+## Lesson 5: Build the end-to-end baseline
 
 **The failure it prevents.** Weeks go into a sophisticated model, and only at the end does anyone compare it with “same as last week”, or discover that the prediction file has the wrong IDs. Without a working pipeline and a baseline, there is nothing to measure progress against.
 
 **Skills:** `/to-experiments`, then `/implement-experiment`
 
-**When to skip.** Never skip the tracer bullet. You may skip `/to-experiments` when only one or two experiments are planned; write those cards by hand.
+**When to skip.** Never skip the end-to-end baseline. You may skip `/to-experiments` when only one or two experiments are planned; write those cards by hand.
 
 **On the bike-sharing example,** the reference canvas ends here: block 9 lists the planned cards, and the results are yours.
 
 **Exercise**
-1. Run `/to-experiments`. Check that card 1 is the tracer bullet: raw data → checks → baseline → evaluation → final output.
+1. Run `/to-experiments`. Check that card 1 is the end-to-end baseline: raw data → checks → baseline → evaluation → final output.
 2. Run `/implement-experiment` on card 1. Watch the new checks go red before they go green.
 3. Read the log entry it writes. Could someone else reproduce the result from it?
 
@@ -221,7 +221,7 @@ You now have the pieces. Run the whole loop once on a real but small question, s
 2. `/grill-question` while the question is fuzzy.
 3. `/explore-data` for the facts, and a quick look when talking is not enough.
 4. `/to-analysis-plan` to agree on checks before code.
-5. `/to-experiments` and `/implement-experiment`, tracer bullet first.
+5. `/to-experiments` and `/implement-experiment`, end-to-end baseline first.
 6. `/review-results` for every result; `diagnose-surprise` when one surprises you.
 7. `/to-memo` for the decision-maker, `/ds-retro` for the next run.
 

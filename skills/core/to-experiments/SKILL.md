@@ -1,6 +1,6 @@
 ---
 name: to-experiments
-description: Break an analysis plan into experiment cards, starting with a baseline tracer bullet, each with its decision rule and blocking edges, and publish them to the tracker.
+description: Break an analysis plan into experiment cards, starting with an end-to-end baseline, each with its decision rule and blocking edges, and publish them to the tracker.
 disable-model-invocation: true
 ---
 
@@ -10,7 +10,7 @@ Break the analysis plan into **experiment cards** an agent can build one at a ti
 
 ## 1. Draft the cards
 
-- **Card 1 is always the tracer bullet**: raw data → all checkpoints green → the baseline from the plan → evaluation on validation data → the final output format (prediction file, table or chart). Narrow but complete. Every later card builds on a working pipeline.
+- **Card 1 is always the end-to-end baseline**: raw data → all checkpoints green → the baseline from the plan → evaluation on validation data → the final output format (prediction file, table or chart). Narrow but complete. Every later card builds on a working pipeline.
 - Each later card changes **one thing** (a feature, a data decision, a model, a hyperparameter range) so its effect can be attributed.
 - Each card fits in one fresh context window and is verifiable on its own.
 - Give each card its **blocking edges**: the cards that must be done first.

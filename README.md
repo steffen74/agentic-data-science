@@ -51,7 +51,7 @@ Plain-text agent skills (`SKILL.md`) that run the process. They work with Claude
 | `/grill-question` | Get interviewed until the decision, questions, audiences and success criteria are sharp | 1–4, 6 |
 | `/explore-data` | Profile the data and surface the data decisions you need to make | 5, 7 |
 | `/to-analysis-plan` | Turn the conversation into a written analysis plan with agreed checkpoints | 4, 6–8 |
-| `/to-experiments` | Split the plan into experiment cards, starting with a baseline tracer bullet | 9 |
+| `/to-experiments` | Split the plan into experiment cards, starting with an end-to-end baseline | 9 |
 | `/implement-experiment` | Build one experiment check-first and log the result | 8, 9 |
 | `/review-results` | Review a result on two axes: validity and question | 8–10 |
 | `/diagnose-surprise` | Find out why a result is too good, too bad or does not add up | 8, 9 |
@@ -109,7 +109,7 @@ Each lesson is one skill and one small exercise, on a project of your own or on 
 2. **Sharpen the question** with `/grill-question`. *Facts are the agent’s job; decisions are yours.*
 3. **Let the agent find the facts** with `/explore-data`. *Every judgement call about the data gets an owner and a log entry.*
 4. **Agree on checks before code** with `/to-analysis-plan`. *Decide how you will know it is right before anything is built.*
-5. **Build the tracer bullet** with `/to-experiments` and `/implement-experiment`. *Start narrow, but go end to end.*
+5. **Build the end-to-end baseline** with `/to-experiments` and `/implement-experiment`. *Start narrow, but go end to end.*
 6. **Distrust your best result** with `/review-results` and `diagnose-surprise`. *A surprising result is a bug until proven otherwise.*
 7. **Close the loop** with `/to-memo` and `/ds-retro`. *A result counts when someone can act on it.*
 

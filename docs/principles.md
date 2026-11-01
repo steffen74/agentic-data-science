@@ -20,7 +20,7 @@ Every feature has to be available at the moment the prediction is needed. Where 
 
 ## 5. Every model starts with a baseline
 
-The first experiment is always a complete **tracer bullet**: from raw data through the checks to a simple baseline and its evaluation. Every later model has to beat it on validation data. A high R² does not mean a model beats “same as last week”.
+The first experiment is always an **end-to-end baseline**: from raw data through the checks to a simple baseline and its evaluation. Every later model has to beat it on validation data. A high R² does not mean a model beats “same as last week”.
 
 ## 6. Limits are part of the result
 

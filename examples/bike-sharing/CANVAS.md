@@ -55,7 +55,7 @@ At 18:00 the day before: calendar (date, weekday, holiday, season), all rentals 
 ## Evidence and action
 
 ### 9. Experiments 🤖
-Planned cards: (1) tracer bullet with both baselines; (2) linear model with calendar features; (3) add weather; (4) add yesterday’s rentals; (5) gradient-boosted trees. Each card’s decision rule: adopt if validation MAE improves by at least 5 % without a worse working-day segment.
+Planned cards: (1) end-to-end baseline with both baselines from block 4; (2) linear model with calendar features; (3) add weather; (4) add yesterday’s rentals; (5) gradient-boosted trees. Each card’s decision rule: adopt if validation MAE improves by at least 5 % without a worse working-day segment.
 
 ### 10. Findings 🤖
 (After experiments: answers to questions 1–3, error by segment and direction, the effect of using observed instead of forecast weather, limits.)
