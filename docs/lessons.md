@@ -30,7 +30,7 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 
 **Exercise**
 1. Run `/setup-ds-project` in your project repository and accept or adjust its recommendations.
-2. Print the [canvas](../canvas/agentic-data-science-canvas.pdf). In ten minutes, by hand, fill in block 1 and as much else as you can.
+2. Open `CANVAS.md` (or the [canvas as PDF](../canvas/agentic-data-science-canvas.pdf)). In ten minutes, without the agent, fill in block 1 and as much else as you can.
 3. Mark every block you could not fill.
 
 **Self-check.** You have a dataset and a deadline. Which canvas block do you fill in first?
