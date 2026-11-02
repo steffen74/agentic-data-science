@@ -56,7 +56,7 @@ Plan about one to two hours per lesson. Do them in order: each lesson’s output
 **When to skip.** When blocks 1–4 are already sharp and agreed, for example because someone else ran the interview. Never skip it because the question “seems obvious”; those are the ones that wobble.
 
 **Exercise**
-1. Run `/grill-question`. Answer one round at a time.
+1. Run `/grill-question` with your question typed after the command, for example `/grill-question Should we open on Sundays?`. Answer one round at a time.
 2. Disagree with at least one of the agent’s recommended answers, and say why.
 3. For every question in block 2, write down one thing your data **cannot** answer.
 

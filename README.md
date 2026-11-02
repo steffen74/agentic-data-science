@@ -93,7 +93,7 @@ Then, once per project:
 ## Quickstart
 
 1. `/setup-ds-project`: creates `CANVAS.md`, `GLOSSARY.md`, `DECISIONS.md`, `checks/` and `experiments/LOG.md`.
-2. `/grill-question`: answer the agent’s questions about the decision behind your project.
+2. `/grill-question <your question>`: answer the agent’s questions about the decision behind it.
 3. `/explore-data`: let the agent profile your data; decide the open data questions.
 4. `/to-analysis-plan`, then `/to-experiments`: agree on checkpoints and the first experiments.
 5. `/implement-experiment` per card; `/review-results` runs at the end of each.

@@ -1,12 +1,17 @@
 ---
 name: grill-question
-description: Interview the team until the decision, questions, audiences, success criteria and leakage boundary of a data science project are sharp. Writes the canvas, glossary and decision log as answers come in.
+description: Interview the team about one question (type it after the command) until the decision, questions, audiences, success criteria and leakage boundary of a data science project are sharp. Writes the canvas, glossary and decision log as answers come in.
 disable-model-invocation: true
 ---
 
 # Grill the question
 
 Interview the user relentlessly about the decision behind the project until blocks 1–4 and 6 of `CANVAS.md` are sharp. Read `CANVAS.md`, `GLOSSARY.md` and `DECISIONS.md` first; never re-ask what is already decided.
+
+## Start from the user’s question
+
+- **The question.** A question typed with the command is the one to grill, and the only one. Without it, ask for the question before the first round. A project goal in `AGENTS.md` or elsewhere is context for that question.
+- **The canvas scope.** A canvas holds one decision. When block 1 already holds a different one, ask first: does the new question replace it, or is the current decision parked under **Open questions**? Log the answer in `DECISIONS.md`.
 
 ## How to interview
 
@@ -27,10 +32,10 @@ Wait for the answers, write them down (below), recompute the frontier, and ask t
 ## What to probe
 
 - **Decision**: who decides what, when, how often, how far ahead. What happens today.
-- **Questions**: for each, what would the answer look like, and **what the data cannot answer**. Check this against the data: if the data never covers the relevant condition, say so.
+- **Questions**: for each, what would the answer look like, and **what the data cannot answer**. Check this against the data: if the data never covers the relevant condition, say so. Count the independent cases a comparison rests on (seasons, stores, years, not rows); when there are only a handful, name that as a limit in the same round.
 - **Audiences**: the decision-maker and the technical reader at minimum; format for each.
 - **Success**: the metric, the baseline to beat, which errors cost more, which segments matter.
-- **Known in advance**: the moment the result is needed and what information exists then. Load the `leakage` skill for the rules.
+- **Known in advance**: the moment the result is needed and what information exists then. For a recurring prediction, load the `leakage` skill for the rules. For a one-off decision, settle the deadline and what will be known by then in one question.
 
 Sharpen fuzzy terms as they come up (“sales” in units or revenue? per branch or total?) and invent concrete scenarios that force a precise answer.
 

@@ -43,4 +43,4 @@ Summarise what is present and missing. Then take the sections in order, one answ
 - Data: <paths>. Raw data is read-only.
 ```
 
-Done when every file exists, the check command passes, and the user has confirmed the `AGENTS.md` section. Suggest `/grill-question` as the next step.
+Done when every file exists, the check command passes, and the user has confirmed the `AGENTS.md` section. Suggest committing the new files as the project’s starting point, then `/grill-question` with the question typed after the command.
