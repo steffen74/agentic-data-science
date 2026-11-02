@@ -2,7 +2,7 @@
 
 A canvas, a process and a set of agent skills for doing data science with a coding agent, without handing over the judgement.
 
-> Status: **v0.1, draft.** Developed for and tested in the course “Introduction to Data Science and Machine Learning” at [opencampus.sh](https://opencampus.sh). Expect changes after the first cohort.
+> Status: **v0.2, draft.** Developed for and tested in the course “Introduction to Data Science and Machine Learning” at [opencampus.sh](https://opencampus.sh). Expect changes after the first cohort.
 
 ## Why
 
