@@ -10,7 +10,7 @@ Every result is written for a named reader from canvas block 3. Before writing, 
 ## Decision-maker
 
 - **Answer first.** The first sentence answers the question; details follow.
-- **Action titles.** Every chart and section title states the conclusion as a sentence (“Weekends sell a quarter more, mostly rolls and croissants”), not the topic (“Sales by weekday”).
+- **Action titles.** Every chart and section title states the conclusion as a sentence (“Rainy mornings need a third fewer bikes in the city centre”), not the topic (“Morning rentals by weather”).
 - **Few numbers.** At most three per message, rounded, with unit and comparison (vs. baseline, vs. last year, vs. today).
 - **Uncertainty in plain words.** “In 8 of 10 weeks the forecast was within 15 %” instead of standard errors; say what the uncertainty means for the decision.
 - **Association, not cause.** “Sales are higher on warm days” unless the analysis was designed to show cause.
