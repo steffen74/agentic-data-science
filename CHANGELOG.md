@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.1 (2026-11-05)
+
 - `audience`: the action-title example now comes from the bike-sharing example project instead of a bakery weekday analysis, so it no longer hands a course exercise its answer.
 
 ## 0.2.0 (2026-11-02)
