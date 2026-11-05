@@ -28,6 +28,8 @@ The [Agentic Data Science Canvas](canvas/) is one page with eleven blocks plus a
 
 In a project the canvas lives as `CANVAS.md` in the repository. It is the shared state between the team and the agent: the skills read it and write to it. A printable version is in [`canvas/`](canvas/).
 
+[![The Agentic Data Science Canvas](canvas/agentic-data-science-canvas.svg)](canvas/agentic-data-science-canvas.pdf)
+
 ### 2. The process
 
 ```
