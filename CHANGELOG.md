@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- New skill `/show-canvas`: renders `CANVAS.md` as an HTML page laid out like the printed canvas (`scripts/render_canvas.py`, standard library only). Empty blocks are marked as not decided or not drafted; with `DECISIONS.md`, each block shows its decisions and those newer than the canvas version. `live` re-renders on every change. The same script as in Agentic Course Creation.
+
 ## 0.2.1 (2026-11-05)
 
 - `audience`: the action-title example now comes from the bike-sharing example project instead of a bakery weekday analysis, so it no longer hands a course exercise its answer.

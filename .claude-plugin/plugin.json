@@ -29,6 +29,7 @@
     "./skills/core/leakage",
     "./skills/core/review-results",
     "./skills/core/setup-ds-project",
+    "./skills/core/show-canvas",
     "./skills/core/tidy-notebooks",
     "./skills/core/to-analysis-plan",
     "./skills/core/to-experiments",

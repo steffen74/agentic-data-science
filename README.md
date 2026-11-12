@@ -50,6 +50,7 @@ Plain-text agent skills (`SKILL.md`) that run the process. They work with Claude
 |---|---|---|
 | `/setup-ds-project` | Set up a repository once: canvas, glossary, decision log, checks, experiment log | all |
 | `/ask-ds` | Find out which skill fits your situation | – |
+| `/show-canvas` | See the canvas as a page in the browser, with empty blocks and stale blocks marked; `live` keeps it updating | all |
 | `/grill-question` | Get interviewed until the decision, questions, audiences and success criteria are sharp | 1–4, 6 |
 | `/explore-data` | Profile the data and surface the data decisions you need to make | 5, 7 |
 | `/to-analysis-plan` | Turn the conversation into a written analysis plan with agreed checkpoints | 4, 6–8 |
